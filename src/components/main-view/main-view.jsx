@@ -8,7 +8,7 @@ export const MainView = () => {
   const [selectedMovie, setSelectedMovie] = useState(null);
 
   useEffect(() => {
-    fetch("https://thawing-shore-57130-948572a59bf0.herokuapp.com/movies")
+    fetch("https://thawing-shore-57130-3839bdb5f582.herokuapp.com/movies")
     .then((response) => response.json())
     .then((data) => {
       const moviesFromApi = data.map((doc) => {
