@@ -20,7 +20,7 @@ export const MainView = () => {
         return;
       }
 
-      fetch("https://thawing-shore-57130-948572a59bf0.herokuapp.com/movies", {
+      fetch("https://thawing-shore-57130-3839bdb5f582.herokuapp.com/movies", {
         headers: { Authorization: `Bearer ${token}` }
       })
       .then((response) => response.json())
